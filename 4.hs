@@ -1,6 +1,3 @@
---Had issues with the tester and then had to resubmit again for a typo in the name of the function after trying to fix the tester issues. 
---Talked with Dr. Polonsky and he said it's okay and I shouldn't get a late penalty for it
-
 mapPair :: (a -> b -> c) -> [(a,b)] -> [c]
 mapPair f x = map (\r -> f (fst(r)) (snd(r))) x
 
